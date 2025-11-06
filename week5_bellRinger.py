@@ -22,8 +22,7 @@ n_index = print(alphabet.index('m'))
 everysecond = print(alphabet[0:13:2])
 
 reversed_alphabet = print(alphabet[ : : -1])
-I_have_a_dream = "And when this happens, and when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God's children, Black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual: Free at last. Free at last. Thank God almighty, we are free at last.
-I_have_a_dream =
+
 # Problem Set 2: Extracting Information
 # From Descriptions:
 # Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
@@ -35,14 +34,28 @@ extracted_name = print(famous_quote [83:])
 # a. Extract the word 'subjective' without knowing its exact position.
 # b. Extract every third word.
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
+# info = "Python is fun. Fun is good. Good is subjective."
+# print(info.rfind["subjective"])
+# extract_word = print (info[36:])
 
-# Problem Set 3: String Methods
-# Upper & Lower:
+# third_letter = print(info[::3])
+
+# words = info.split()
+# print(words)
+# reversed_words = ' '.join(reversed(words))
+# print(reversed_words)
+# # Problem Set 3: String Methods
+# # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
-
+text = "MAY THE FORCE BE WITH YOU."
+print(text.lower)
 # String Joining and Splitting:
 # Given the list motto = ["Make", "haste", "slowly."],
+moto = ["Make", "haste", "slowly."]
 # a. Convert the list into a single string.
+joined_moto = "/".join(moto)
+print(joined_moto)
+joined_moto_split = joined_moto.split
 # b. Now, split the string at every occurrence of the letter 'a'.
 
 # Replacing Words:
@@ -56,7 +69,11 @@ extracted_name = print(famous_quote [83:])
 
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
-
+word =" freedom"
+qu
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
+phrase= "Supercalifragilisticexpialidocious"
+length_of_phrase = print(len(phrase))
+count_of_i = print(phrase.count('i'))
